@@ -97,12 +97,12 @@ a {
     border: 1px solid greenyellow;
     border-radius: 12px;
     justify-content: center;
+    align-items: center;
 }
 
 .kortti-kuva{
     max-width: 500px;
     width: 100%;
-    
 }
 
 .tiedot li::marker {
@@ -117,9 +117,12 @@ a {
 
 /*moobiilinäkymä*/
 
-@media(max-width:600px) {
+@media(max-width:800px) {
     .kortit {
         grid-template-columns: 1fr;
+    }
+    .kortti-kuva{
+    max-width: 100%;
     }
     .valikko-checkbox {
         display: block;
