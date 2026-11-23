@@ -98,6 +98,10 @@ a {
     border-radius: 12px;
 }
 
+.kortti-kuva{
+    max-width: 400px;
+}
+
 .tiedot li::marker {
     color: blue;
 }
