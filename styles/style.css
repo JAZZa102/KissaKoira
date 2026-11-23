@@ -96,10 +96,13 @@ a {
     background-color: rgb(247, 255, 242);
     border: 1px solid greenyellow;
     border-radius: 12px;
+    justify-content: center;
 }
 
 .kortti-kuva{
-    max-width: 400px;
+    max-width: 500px;
+    width: 100%;
+    
 }
 
 .tiedot li::marker {
